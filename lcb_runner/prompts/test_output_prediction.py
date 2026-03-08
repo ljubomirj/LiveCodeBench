@@ -1,6 +1,10 @@
 import json
 
-from anthropic import HUMAN_PROMPT, AI_PROMPT
+try:
+    from anthropic import HUMAN_PROMPT, AI_PROMPT
+except ImportError:
+    HUMAN_PROMPT = None
+    AI_PROMPT = None
 
 from lcb_runner.lm_styles import LMStyle
 from lcb_runner.benchmarks import TestOutputPredictionProblem

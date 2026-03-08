@@ -1,7 +1,14 @@
+import os
+
 from lcb_runner.lm_styles import LMStyle, LanguageModel
 
 
 def build_runner(args, model: LanguageModel):
+    if os.getenv("OPENAI_API_BASE") or os.getenv("OPENAI_BASE_URL"):
+        from lcb_runner.runner.oai_runner import OpenAIRunner
+
+        return OpenAIRunner(args, model)
+
     if model.model_style == LMStyle.OpenAIChat:
         from lcb_runner.runner.oai_runner import OpenAIRunner
 

@@ -1,3 +1,4 @@
+import os
 from typing import Union
 
 from lcb_runner.utils.scenarios import Scenario
@@ -58,6 +59,11 @@ def build_prompt_benchmark(
                 end_date=args.end_date
             )
         benchmark = sorted(benchmark, key=lambda x: x.question_id)
+        limit_env = os.getenv("LCB_PROBLEM_LIMIT")
+        if limit_env:
+            limit = int(limit_env)
+            benchmark = benchmark[:limit]
+            print(f"Applied LCB_PROBLEM_LIMIT={limit}, using {len(benchmark)} problems")
         format_prompt = format_prompt_generation
     elif scenario == Scenario.testoutputprediction:
         benchmark = load_test_prediction_dataset(args.release_version)

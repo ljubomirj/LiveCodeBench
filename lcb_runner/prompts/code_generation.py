@@ -20,7 +20,12 @@ class PromptConstants:
     SYSTEM_MESSAGE_DEEPSEEK = f"You are an AI programming assistant, utilizing the DeepSeek Coder model, developed by DeepSeek Company, and you answer questions related to computer science."
 
     SYSTEM_MESSAGE_CODEQWEN = (
-        f"<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user"
+        "<|im_start|>system\n"
+        "You are an expert Python competitive programming assistant. "
+        "Output only the final Python solution. "
+        "Do not include chain-of-thought. "
+        "Do not output <think> tags.\n"
+        "<|im_end|>\n<|im_start|>user"
     )
 
     SYSTEM_MESSAGE_QWEN_QWQ = f"<|im_start|>system\nYou are a helpful and harmless assistant. You are Qwen developed by Alibaba. You should think step-by-step.<|im_end|>\n<|im_start|>user"

@@ -861,6 +861,25 @@ LanguageModelList: list[LanguageModel] = [
         datetime(2024, 4, 1),
         "https://huggingface.co/agentica-org/DeepCoder-14B-Preview",
     ),
+    # Local llama.cpp aliases for Qwen3.5 GGUF benchmarking via OpenAI-compatible API.
+    LanguageModel(
+        "Qwen3.5-35B-A3B-IQ4",
+        "Qwen3.5-35B-A3B-IQ4",
+        LMStyle.OpenAIChat,
+        datetime(2024, 9, 1),
+    ),
+    LanguageModel(
+        "Qwen3.5-27B-Q4",
+        "Qwen3.5-27B-Q4",
+        LMStyle.OpenAIChat,
+        datetime(2024, 9, 1),
+    ),
+    LanguageModel(
+        "Qwen3.5-9B-Q8",
+        "Qwen3.5-9B-Q8",
+        LMStyle.OpenAIChat,
+        datetime(2024, 9, 1),
+    ),
 ]
 
 LanguageModelStore: dict[str, LanguageModel] = {
