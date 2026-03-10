@@ -1,0 +1,53 @@
+[
+    {
+        "pass@1": 0.3333333333333333,
+        "detail": {
+            "pass@1": {
+                "0": 0.0,
+                "1": 0.0,
+                "2": 1.0
+            }
+        }
+    },
+    {
+        "0": [
+            [
+                -4
+            ]
+        ],
+        "1": [
+            [
+                -4
+            ]
+        ],
+        "2": [
+            [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        ]
+    },
+    [
+        [
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+        ],
+        [
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+        ],
+        [
+            "{\"execution time\": 3.0994415283203125e-05}"
+        ]
+    ]
+]

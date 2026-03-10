@@ -1,130 +1,44 @@
 [
     {
-        "pass@1": 0.22826086956521738,
+        "pass@1": 0.3333333333333333,
         "detail": {
             "pass@1": {
-                "0": 0.0,
+                "0": 1.0,
                 "1": 0.0,
-                "2": 0.0,
-                "3": 0.0,
+                "2": 1.0,
+                "3": 1.0,
                 "4": 0.0,
                 "5": 0.0,
-                "6": 0.0,
+                "6": 1.0,
                 "7": 0.0,
                 "8": 0.0,
                 "9": 0.0,
                 "10": 0.0,
-                "11": 0.0,
-                "0": 1.0,
-                "1": 0.0,
-                "2": 1.0,
-                "3": 0.0,
-                "4": 1.0,
-                "5": 1.0,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 1.0,
-                "9": 0.0,
-                "10": 1.0,
-                "11": 0.0,
-                "12": 0.0,
-                "13": 1.0,
-                "14": 1.0,
-                "15": 0.0,
-                "16": 0.0,
-                "17": 0.0,
-                "18": 0.0,
-                "19": 1.0,
-                "20": 1.0,
-                "21": 0.0,
-                "22": 1.0,
-                "23": 1.0,
-                "24": 1.0,
-                "25": 0.0,
-                "26": 1.0,
-                "27": 1.0,
-                "28": 1.0,
-                "29": 1.0,
-                "30": 1.0,
-                "31": 0.0,
-                "32": 0.0,
-                "33": 1.0,
-                "34": 1.0,
-                "35": 1.0,
-                "36": 0.0,
-                "37": 0.0,
-                "38": 0.0,
-                "39": 0.0,
-                "40": 0.0,
-                "41": 0.0,
-                "42": 0.0,
-                "43": 0.0
+                "11": 0.0
             }
         }
     },
     {
         "0": [
             [
-                -4
-            ]
-        ],
-        "1": [
-            [
-                -4
-            ]
-        ],
-        "2": [
-            [
-                -4
-            ]
-        ],
-        "3": [
-            [
-                -4
-            ]
-        ],
-        "4": [
-            [
-                -4
-            ]
-        ],
-        "5": [
-            [
-                -4
-            ]
-        ],
-        "6": [
-            [
-                -4
-            ]
-        ],
-        "7": [
-            [
-                -4
-            ]
-        ],
-        "8": [
-            [
-                -4
-            ]
-        ],
-        "9": [
-            [
-                -4
-            ]
-        ],
-        "10": [
-            [
-                -4
-            ]
-        ],
-        "11": [
-            [
-                -4
-            ]
-        ],
-        "0": [
-            [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
                 true,
                 true,
                 true,
@@ -162,76 +76,113 @@
                 true,
                 true,
                 true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
                 true
             ]
         ],
         "3": [
             [
-                -4
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
             ]
         ],
         "4": [
             [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
+                -4
             ]
         ],
         "5": [
             [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
+                -2
             ]
         ],
         "6": [
             [
-                -4
-            ]
-        ],
-        "7": [
-            [
-                -4
-            ]
-        ],
-        "8": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
                 true,
                 true,
                 true,
                 true,
                 true
+            ]
+        ],
+        "7": [
+            [
+                -2
+            ]
+        ],
+        "8": [
+            [
+                -4
             ]
         ],
         "9": [
@@ -241,477 +192,39 @@
         ],
         "10": [
             [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
+                -2
             ]
         ],
         "11": [
             [
-                -4
-            ]
-        ],
-        "12": [
-            [
-                -4
-            ]
-        ],
-        "13": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "14": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "15": [
-            [
-                -4
-            ]
-        ],
-        "16": [
-            [
-                -4
-            ]
-        ],
-        "17": [
-            [
-                -4
-            ]
-        ],
-        "18": [
-            [
-                -4
-            ]
-        ],
-        "19": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "20": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "21": [
-            [
-                true,
-                true,
-                -4
-            ]
-        ],
-        "22": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "23": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "24": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "25": [
-            [
-                -4
-            ]
-        ],
-        "26": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "27": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "28": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "29": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "30": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "31": [
-            [
-                -4
-            ]
-        ],
-        "32": [
-            [
-                -4
-            ]
-        ],
-        "33": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "34": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "35": [
-            [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true
-            ]
-        ],
-        "36": [
-            [
-                -4
-            ]
-        ],
-        "37": [
-            [
-                -4
-            ]
-        ],
-        "38": [
-            [
-                -4
-            ]
-        ],
-        "39": [
-            [
-                -4
-            ]
-        ],
-        "40": [
-            [
-                -4
-            ]
-        ],
-        "41": [
-            [
-                -4
-            ]
-        ],
-        "42": [
-            [
-                -4
-            ]
-        ],
-        "43": [
-            [
-                -4
+                -2
             ]
         ]
     },
     [
         [
-            "{\"execution time\": 0.02249884605407715}"
+            "{\"execution time\": 0.0007853507995605469}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
         ],
         [
-            "{\"execution time\": 1.7404556274414062e-05}"
+            "{\"execution time\": 0.2726922035217285}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"execution time\": 0.22088122367858887}"
         ],
         [
-            "{\"execution time\": 0.007788658142089844}"
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
-            "{\"execution time\": 0.00014328956604003906}"
+            "{\"output\": \"3\\n\", \"inputs\": \"10 10\\n..........\\n#########.\\n#.......#.\\n#..####.#.\\n##....#.#.\\n#####.#.#.\\n.##.#.#.#.\\n###.#.#.#.\\n###.#.#.#.\\n#.....#...\\n1 1 7 1\", \"expected\": \"1\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0: 3 != 1\"}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"execution time\": 2.8480684757232666}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"execution time\": 0.010370731353759766}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"execution time\": 5.1975250244140625e-05}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"execution time\": 0.3661229610443115}"
-        ],
-        [
-            "{\"execution time\": 3.266334533691406e-05}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"execution time\": 0.2588064670562744}"
-        ],
-        [
-            "{\"execution time\": 0.30695271492004395}"
-        ],
-        [
-            "{\"error\": \"ValueError('max() arg is an empty sequence')\", \"error_code\": -4, \"error_message\": \"Runtime Error\", \"inputs\": \"['']\", \"expected\": \"\"}"
-        ],
-        [
-            "{\"execution time\": 0.0007936954498291016}"
-        ],
-        [
-            "{\"execution time\": 6.031990051269531e-05}"
-        ],
-        [
-            "{\"execution time\": 5.817413330078125e-05}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"execution time\": 3.123283386230469e-05}"
-        ],
-        [
-            "{\"execution time\": 0.0001163482666015625}"
-        ],
-        [
-            "{\"execution time\": 0.46268415451049805}"
-        ],
-        [
-            "{\"execution time\": 0.05809521675109863}"
-        ],
-        [
-            "{\"execution time\": 0.038378238677978516}"
+            "{\"output\": \"\", \"inputs\": \"1\\n3 1\\n6 3 8\\n3 5 0\\n2 7 3\", \"expected\": \"12\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 12\"}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
@@ -720,181 +233,10 @@
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
-            "{\"execution time\": 0.02662038803100586}"
+            "{\"output\": \"\", \"inputs\": \"2\\nBWBW\", \"expected\": \"1\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 1\"}"
         ],
         [
-            "{\"execution time\": 0.03751230239868164}"
-        ],
-        [
-            "{\"execution time\": 0.03291463851928711}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: module 'tmp_sol' has no attribute 'Solution'\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
+            "{\"output\": \"\", \"inputs\": \"5 4 2\\n4 2\\n1 3\\n3 5\\n2 4\\n1 3\\n2 4\", \"expected\": \"Yes\\nNo\", \"error_code\": -2, \"error_message\": \"Wrong answer: mismatched output length\"}"
         ]
     ]
 ]

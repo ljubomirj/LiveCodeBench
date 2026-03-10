@@ -59,6 +59,18 @@ def build_prompt_benchmark(
                 end_date=args.end_date
             )
         benchmark = sorted(benchmark, key=lambda x: x.question_id)
+        include_ids_env = os.getenv("LCB_INCLUDE_QUESTION_IDS")
+        if include_ids_env:
+            include_ids = {
+                qid.strip() for qid in include_ids_env.split(",") if qid.strip()
+            }
+            benchmark = [
+                instance for instance in benchmark if instance.question_id in include_ids
+            ]
+            print(
+                "Applied LCB_INCLUDE_QUESTION_IDS, using "
+                f"{len(benchmark)} problems"
+            )
         limit_env = os.getenv("LCB_PROBLEM_LIMIT")
         if limit_env:
             limit = int(limit_env)

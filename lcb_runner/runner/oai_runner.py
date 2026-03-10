@@ -52,6 +52,12 @@ class OpenAIRunner(BaseRunner):
                 "timeout": args.openai_timeout,
             }
 
+            # llama.cpp can expose reasoning and final answer in different channels.
+            # This optional hint asks server to include reasoning in content channel.
+            reasoning_in_content_env = os.getenv("LCB_REASONING_IN_CONTENT", "")
+            if reasoning_in_content_env.lower() in ("1", "true", "yes", "on"):
+                self.client_kwargs["extra_body"] = {"reasoning_in_content": True}
+
             # For local ChatML/Qwen servers, explicit stop sequences prevent runaway
             # generation when the model emits follow-up turns.
             stop_env = os.getenv("LCB_STOP_SEQUENCES")
@@ -70,6 +76,51 @@ class OpenAIRunner(BaseRunner):
 
             if stop_sequences:
                 self.client_kwargs["stop"] = stop_sequences
+
+    @staticmethod
+    def _normalize_message_text(value) -> str:
+        if value is None:
+            return ""
+        if isinstance(value, str):
+            return value
+        if isinstance(value, list):
+            parts = []
+            for item in value:
+                if isinstance(item, str):
+                    parts.append(item)
+                elif isinstance(item, dict):
+                    text = item.get("text")
+                    if isinstance(text, str):
+                        parts.append(text)
+            return "".join(parts).strip()
+        return str(value)
+
+    @staticmethod
+    def _extract_choice_text(choice) -> str:
+        message = getattr(choice, "message", None)
+        if message is None:
+            return ""
+
+        # Standard content channel first.
+        content = OpenAIRunner._normalize_message_text(getattr(message, "content", ""))
+        if content.strip():
+            return content
+
+        # Fallback to reasoning channel for servers that keep final/code there.
+        reasoning = OpenAIRunner._normalize_message_text(
+            getattr(message, "reasoning_content", "")
+        )
+        if reasoning.strip():
+            return reasoning
+
+        model_extra = getattr(message, "model_extra", None) or {}
+        reasoning_extra = OpenAIRunner._normalize_message_text(
+            model_extra.get("reasoning_content", "")
+        )
+        if reasoning_extra.strip():
+            return reasoning_extra
+
+        return ""
 
     def _run_single(self, prompt: list[dict[str, str]] | str, n: int = 10) -> list[str]:
         if isinstance(prompt, list):
@@ -124,7 +175,7 @@ class OpenAIRunner(BaseRunner):
             print(f"Failed to run the model for {prompt}!")
             print("Exception: ", repr(e))
             raise e
-        return [c.message.content for c in response.choices]
+        return [self._extract_choice_text(c) for c in response.choices]
 
     def _run_completion(self, prompt: str, n: int = 10) -> list[str]:
         if n == 0:

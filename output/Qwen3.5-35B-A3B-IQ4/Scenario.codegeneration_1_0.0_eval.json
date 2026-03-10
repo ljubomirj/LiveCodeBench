@@ -1,91 +1,214 @@
 [
     {
-        "pass@1": 0.0,
+        "pass@1": 0.4166666666666667,
         "detail": {
             "pass@1": {
-                "0": 0.0,
+                "0": 1.0,
                 "1": 0.0,
-                "2": 0.0,
-                "3": 0.0,
-                "4": 0.0,
+                "2": 1.0,
+                "3": 1.0,
+                "4": 1.0,
                 "5": 0.0,
-                "6": 0.0,
+                "6": 1.0,
                 "7": 0.0,
                 "8": 0.0,
                 "9": 0.0,
                 "10": 0.0,
-                "11": 0.0,
-                "0": 0.0,
-                "1": 0.0,
-                "2": 0.0,
-                "3": 0.0,
-                "4": 0.0,
-                "5": 0.0,
-                "6": 0.0,
-                "7": 0.0,
-                "8": 0.0,
-                "9": 0.0,
-                "10": 0.0,
-                "11": 0.0,
-                "12": 0.0,
-                "13": 0.0,
-                "14": 0.0,
-                "15": 0.0,
-                "16": 0.0,
-                "17": 0.0,
-                "18": 0.0,
-                "19": 0.0,
-                "20": 0.0,
-                "21": 0.0,
-                "22": 0.0,
-                "23": 0.0,
-                "24": 0.0,
-                "25": 0.0,
-                "26": 0.0,
-                "27": 0.0,
-                "28": 0.0,
-                "29": 0.0,
-                "30": 0.0,
-                "31": 0.0,
-                "32": 0.0,
-                "33": 0.0,
-                "34": 0.0,
-                "35": 0.0,
-                "36": 0.0,
-                "37": 0.0,
-                "38": 0.0,
-                "39": 0.0,
-                "40": 0.0,
-                "41": 0.0,
-                "42": 0.0,
-                "43": 0.0
+                "11": 0.0
             }
         }
     },
     {
         "0": [
             [
-                -4
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
             ]
         ],
         "1": [
             [
-                -4
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false
             ]
         ],
         "2": [
             [
-                -4
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
             ]
         ],
         "3": [
             [
-                -4
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
             ]
         ],
         "4": [
             [
-                -4
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
             ]
         ],
         "5": [
@@ -95,17 +218,21 @@
         ],
         "6": [
             [
-                -4
+                true,
+                true,
+                true,
+                true,
+                true
             ]
         ],
         "7": [
             [
-                -4
+                -2
             ]
         ],
         "8": [
             [
-                -4
+                -2
             ]
         ],
         "9": [
@@ -120,317 +247,37 @@
         ],
         "11": [
             [
-                -4
-            ]
-        ],
-        "0": [
-            [
-                -4
-            ]
-        ],
-        "1": [
-            [
-                -4
-            ]
-        ],
-        "2": [
-            [
-                -4
-            ]
-        ],
-        "3": [
-            [
-                -4
-            ]
-        ],
-        "4": [
-            [
-                -4
-            ]
-        ],
-        "5": [
-            [
-                -4
-            ]
-        ],
-        "6": [
-            [
-                -4
-            ]
-        ],
-        "7": [
-            [
-                -4
-            ]
-        ],
-        "8": [
-            [
-                -4
-            ]
-        ],
-        "9": [
-            [
-                -4
-            ]
-        ],
-        "10": [
-            [
-                -4
-            ]
-        ],
-        "11": [
-            [
-                -4
-            ]
-        ],
-        "12": [
-            [
-                -4
-            ]
-        ],
-        "13": [
-            [
-                -4
-            ]
-        ],
-        "14": [
-            [
-                -4
-            ]
-        ],
-        "15": [
-            [
-                -4
-            ]
-        ],
-        "16": [
-            [
-                -4
-            ]
-        ],
-        "17": [
-            [
-                -4
-            ]
-        ],
-        "18": [
-            [
-                -4
-            ]
-        ],
-        "19": [
-            [
-                -4
-            ]
-        ],
-        "20": [
-            [
-                -4
-            ]
-        ],
-        "21": [
-            [
-                -4
-            ]
-        ],
-        "22": [
-            [
-                -4
-            ]
-        ],
-        "23": [
-            [
-                -4
-            ]
-        ],
-        "24": [
-            [
-                -4
-            ]
-        ],
-        "25": [
-            [
-                -4
-            ]
-        ],
-        "26": [
-            [
-                -4
-            ]
-        ],
-        "27": [
-            [
-                -4
-            ]
-        ],
-        "28": [
-            [
-                -4
-            ]
-        ],
-        "29": [
-            [
-                -4
-            ]
-        ],
-        "30": [
-            [
-                -4
-            ]
-        ],
-        "31": [
-            [
-                -4
-            ]
-        ],
-        "32": [
-            [
-                -4
-            ]
-        ],
-        "33": [
-            [
-                -4
-            ]
-        ],
-        "34": [
-            [
-                -4
-            ]
-        ],
-        "35": [
-            [
-                -4
-            ]
-        ],
-        "36": [
-            [
-                -4
-            ]
-        ],
-        "37": [
-            [
-                -4
-            ]
-        ],
-        "38": [
-            [
-                -4
-            ]
-        ],
-        "39": [
-            [
-                -4
-            ]
-        ],
-        "40": [
-            [
-                -4
-            ]
-        ],
-        "41": [
-            [
-                -4
-            ]
-        ],
-        "42": [
-            [
-                -4
-            ]
-        ],
-        "43": [
-            [
-                -4
+                -2
             ]
         ]
     },
     [
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"execution time\": 0.0007321834564208984}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"output\": \"396\", \"inputs\": \"[[1, 7, 4, 10, 11, 11, 9, 6, 2, 4, 9, 0, 4, 0, 7, 5, 2, 10, 8, 2, 4, 11, 10, 4, 7, 8, 12, 12, 3, 2, 7, 4, 9, 11, 1, 9, 12, 4, 8, 0], -5, 500]\", \"expected\": \"495\", \"error_code\": -2, \"error_message\": \"Wrong Answer\"}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"execution time\": 0.20847773551940918}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"execution time\": 0.23354315757751465}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"execution time\": 0.23399662971496582}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"execution time\": 3.3020541667938232}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"output\": \"\", \"inputs\": \"1\\n3 1\\n6 3 8\\n3 5 0\\n2 7 3\", \"expected\": \"12\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 12\"}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
+            "{\"output\": \"\", \"inputs\": \"4\\n1 2 5 3\", \"expected\": \"5\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 5\"}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
@@ -439,187 +286,7 @@
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
+            "{\"output\": \"\", \"inputs\": \"5 4 2\\n4 2\\n1 3\\n3 5\\n2 4\\n1 3\\n2 4\", \"expected\": \"Yes\\nNo\", \"error_code\": -2, \"error_message\": \"Wrong answer: mismatched output length\"}"
         ]
     ]
 ]

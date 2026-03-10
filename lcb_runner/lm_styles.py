@@ -880,6 +880,13 @@ LanguageModelList: list[LanguageModel] = [
         LMStyle.OpenAIChat,
         datetime(2024, 9, 1),
     ),
+    # Local llama.cpp alias for GLM-4.7-Flash GGUF benchmarking via OpenAI-compatible API.
+    LanguageModel(
+        "GLM-4.7-Flash-Q4",
+        "GLM-4.7-Flash-Q4",
+        LMStyle.OpenAIChat,
+        datetime(2025, 11, 1),
+    ),
 ]
 
 LanguageModelStore: dict[str, LanguageModel] = {
