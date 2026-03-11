@@ -15,6 +15,20 @@ from lcb_runner.runner.base_runner import BaseRunner
 class OpenAIRunner(BaseRunner):
     _default_client = OpenAI(api_key=os.getenv("OPENAI_KEY"))
 
+    @staticmethod
+    def _is_truthy_env(name: str) -> bool:
+        return os.getenv(name, "").strip().lower() in ("1", "true", "yes", "on")
+
+    @staticmethod
+    def _parse_json_env(name: str, default):
+        raw = os.getenv(name, "").strip()
+        if not raw:
+            return default
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Invalid JSON in {name}: {e}") from e
+
     def __init__(self, args, model):
         base_url = os.getenv("OPENAI_API_BASE") or os.getenv("OPENAI_BASE_URL")
         super().__init__(args, model)
@@ -52,11 +66,43 @@ class OpenAIRunner(BaseRunner):
                 "timeout": args.openai_timeout,
             }
 
+            extra_body = {}
+
             # llama.cpp can expose reasoning and final answer in different channels.
             # This optional hint asks server to include reasoning in content channel.
-            reasoning_in_content_env = os.getenv("LCB_REASONING_IN_CONTENT", "")
-            if reasoning_in_content_env.lower() in ("1", "true", "yes", "on"):
-                self.client_kwargs["extra_body"] = {"reasoning_in_content": True}
+            if self._is_truthy_env("LCB_REASONING_IN_CONTENT"):
+                extra_body["reasoning_in_content"] = True
+
+            reasoning_format = os.getenv("LCB_REASONING_FORMAT", "").strip()
+            if reasoning_format:
+                extra_body["reasoning_format"] = reasoning_format
+
+            top_k_env = os.getenv("LCB_TOP_K", "").strip()
+            if top_k_env:
+                extra_body["top_k"] = int(top_k_env)
+
+            min_p_env = os.getenv("LCB_MIN_P", "").strip()
+            if min_p_env:
+                extra_body["min_p"] = float(min_p_env)
+
+            chat_template_kwargs = self._parse_json_env(
+                "LCB_CHAT_TEMPLATE_KWARGS_JSON", {}
+            )
+            if chat_template_kwargs:
+                if not isinstance(chat_template_kwargs, dict):
+                    raise ValueError(
+                        "LCB_CHAT_TEMPLATE_KWARGS_JSON must be a JSON object"
+                    )
+                extra_body["chat_template_kwargs"] = chat_template_kwargs
+
+            merged_extra_body = self._parse_json_env("LCB_EXTRA_BODY_JSON", {})
+            if merged_extra_body:
+                if not isinstance(merged_extra_body, dict):
+                    raise ValueError("LCB_EXTRA_BODY_JSON must be a JSON object")
+                extra_body.update(merged_extra_body)
+
+            if extra_body:
+                self.client_kwargs["extra_body"] = extra_body
 
             # For local ChatML/Qwen servers, explicit stop sequences prevent runaway
             # generation when the model emits follow-up turns.
@@ -71,8 +117,6 @@ class OpenAIRunner(BaseRunner):
                         stop_sequences = [parsed]
                 except json.JSONDecodeError:
                     stop_sequences = [x for x in stop_env.split("|||") if x]
-            elif args.model.startswith("Qwen3.5-"):
-                stop_sequences = ["\n```", "<|im_end|>", "<|im_start|>", "<|endoftext|>"]
 
             if stop_sequences:
                 self.client_kwargs["stop"] = stop_sequences
@@ -133,7 +177,21 @@ class OpenAIRunner(BaseRunner):
             return []
 
         request_messages = prompt
-        if self.args.model.startswith("Qwen3.5-"):
+        final_format_constraint = os.getenv("LCB_FINAL_ANSWER_CONSTRAINT", "").strip()
+        if final_format_constraint:
+            request_messages = [dict(m) for m in request_messages]
+            if request_messages and request_messages[0].get("role") == "system":
+                request_messages[0]["content"] = (
+                    request_messages[0].get("content", "") + " " + final_format_constraint
+                )
+            else:
+                request_messages = [
+                    {"role": "system", "content": final_format_constraint}
+                ] + request_messages
+
+        if self.args.model.startswith("Qwen3.5-") and self._is_truthy_env(
+            "LCB_QWEN_NO_THINK_HINT"
+        ):
             request_messages = [dict(m) for m in prompt]
             no_think_hint = (
                 " Do not output <think> tags. "
