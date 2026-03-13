@@ -158,12 +158,12 @@
         ],
         "4": [
             [
-                -4
+                -2
             ]
         ],
         "5": [
             [
-                -2
+                -4
             ]
         ],
         "6": [
@@ -182,7 +182,11 @@
         ],
         "8": [
             [
-                -4
+                true,
+                true,
+                true,
+                true,
+                -2
             ]
         ],
         "9": [
@@ -192,51 +196,51 @@
         ],
         "10": [
             [
-                -2
+                -4
             ]
         ],
         "11": [
             [
-                -2
+                -4
             ]
         ]
     },
     [
         [
-            "{\"execution time\": 0.0007853507995605469}"
+            "{\"execution time\": 0.0006117820739746094}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: cannot unpack non-iterable NoneType object\"}"
         ],
         [
-            "{\"execution time\": 0.2726922035217285}"
+            "{\"execution time\": 0.21001982688903809}"
         ],
         [
-            "{\"execution time\": 0.22088122367858887}"
+            "{\"execution time\": 0.21220159530639648}"
+        ],
+        [
+            "{\"output\": \"7\\n\", \"inputs\": \"20\", \"expected\": \"5\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0: 7 != 5\"}"
+        ],
+        [
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after 'else' statement on line 66 (<string>, line 155)\"}"
+        ],
+        [
+            "{\"execution time\": 1.9614944458007812}"
+        ],
+        [
+            "{\"output\": \"11\\n\", \"inputs\": \"1\\n3 1\\n6 3 8\\n3 5 0\\n2 7 3\", \"expected\": \"12\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0: 11 != 12\"}"
+        ],
+        [
+            "{\"output\": \"1505785\\n\", \"inputs\": \"63\\n55449 10966 48278 28854 34199 76708 21835 56522 25159 46992 15075 8370 92014 3621 68920 59194 98624 88726 26436 15586 65155 52161 33618 27163 84017...(truncated) ...1 63951 19452 73913 53204 83672 89120 55475 68319 64934 89040 42266 65332 65359 83240 87828 26476 71148 79924 28676 1273 44594 92484 97916 41715 42183\", \"expected\": \"1502497\\n\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0: 1505785 != 1502497\"}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
-            "{\"output\": \"3\\n\", \"inputs\": \"10 10\\n..........\\n#########.\\n#.......#.\\n#..####.#.\\n##....#.#.\\n#####.#.#.\\n.##.#.#.#.\\n###.#.#.#.\\n###.#.#.#.\\n#.....#...\\n1 1 7 1\", \"expected\": \"1\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0: 3 != 1\"}"
-        ],
-        [
-            "{\"execution time\": 2.8480684757232666}"
-        ],
-        [
-            "{\"output\": \"\", \"inputs\": \"1\\n3 1\\n6 3 8\\n3 5 0\\n2 7 3\", \"expected\": \"12\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 12\"}"
-        ],
-        [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"output\": \"\", \"inputs\": \"2\\nBWBW\", \"expected\": \"1\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 1\"}"
-        ],
-        [
-            "{\"output\": \"\", \"inputs\": \"5 4 2\\n4 2\\n1 3\\n3 5\\n2 4\\n1 3\\n2 4\", \"expected\": \"Yes\\nNo\", \"error_code\": -2, \"error_message\": \"Wrong answer: mismatched output length\"}"
         ]
     ]
 ]

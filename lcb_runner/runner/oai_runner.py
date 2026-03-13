@@ -29,6 +29,20 @@ class OpenAIRunner(BaseRunner):
         except json.JSONDecodeError as e:
             raise ValueError(f"Invalid JSON in {name}: {e}") from e
 
+    @staticmethod
+    def _parse_optional_float_env(name: str):
+        raw = os.getenv(name, "").strip()
+        if not raw:
+            return None
+        return float(raw)
+
+    @staticmethod
+    def _parse_optional_int_env(name: str):
+        raw = os.getenv(name, "").strip()
+        if not raw:
+            return None
+        return int(raw)
+
     def __init__(self, args, model):
         base_url = os.getenv("OPENAI_API_BASE") or os.getenv("OPENAI_BASE_URL")
         super().__init__(args, model)
@@ -84,6 +98,44 @@ class OpenAIRunner(BaseRunner):
             min_p_env = os.getenv("LCB_MIN_P", "").strip()
             if min_p_env:
                 extra_body["min_p"] = float(min_p_env)
+
+            repeat_penalty = self._parse_optional_float_env("LCB_REPEAT_PENALTY")
+            if repeat_penalty is not None:
+                extra_body["repeat_penalty"] = repeat_penalty
+
+            repeat_last_n = self._parse_optional_int_env("LCB_REPEAT_LAST_N")
+            if repeat_last_n is not None:
+                extra_body["repeat_last_n"] = repeat_last_n
+
+            frequency_penalty = self._parse_optional_float_env(
+                "LCB_FREQUENCY_PENALTY"
+            )
+            if frequency_penalty is not None:
+                self.client_kwargs["frequency_penalty"] = frequency_penalty
+
+            presence_penalty = self._parse_optional_float_env("LCB_PRESENCE_PENALTY")
+            if presence_penalty is not None:
+                self.client_kwargs["presence_penalty"] = presence_penalty
+
+            dry_multiplier = self._parse_optional_float_env("LCB_DRY_MULTIPLIER")
+            if dry_multiplier is not None:
+                extra_body["dry_multiplier"] = dry_multiplier
+
+            dry_base = self._parse_optional_float_env("LCB_DRY_BASE")
+            if dry_base is not None:
+                extra_body["dry_base"] = dry_base
+
+            dry_allowed_length = self._parse_optional_int_env(
+                "LCB_DRY_ALLOWED_LENGTH"
+            )
+            if dry_allowed_length is not None:
+                extra_body["dry_allowed_length"] = dry_allowed_length
+
+            dry_penalty_last_n = self._parse_optional_int_env(
+                "LCB_DRY_PENALTY_LAST_N"
+            )
+            if dry_penalty_last_n is not None:
+                extra_body["dry_penalty_last_n"] = dry_penalty_last_n
 
             chat_template_kwargs = self._parse_json_env(
                 "LCB_CHAT_TEMPLATE_KWARGS_JSON", {}
@@ -177,6 +229,18 @@ class OpenAIRunner(BaseRunner):
             return []
 
         request_messages = prompt
+        system_message_append = os.getenv("LCB_SYSTEM_MESSAGE_APPEND", "").strip()
+        if system_message_append:
+            request_messages = [dict(m) for m in request_messages]
+            if request_messages and request_messages[0].get("role") == "system":
+                request_messages[0]["content"] = (
+                    request_messages[0].get("content", "") + " " + system_message_append
+                )
+            else:
+                request_messages = [
+                    {"role": "system", "content": system_message_append}
+                ] + request_messages
+
         final_format_constraint = os.getenv("LCB_FINAL_ANSWER_CONSTRAINT", "").strip()
         if final_format_constraint:
             request_messages = [dict(m) for m in request_messages]

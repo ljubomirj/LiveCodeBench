@@ -58,14 +58,6 @@
         ],
         "1": [
             [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
                 false
             ]
         ],
@@ -227,7 +219,7 @@
         ],
         "7": [
             [
-                -2
+                -4
             ]
         ],
         "8": [
@@ -247,34 +239,34 @@
         ],
         "11": [
             [
-                -2
+                -4
             ]
         ]
     },
     [
         [
-            "{\"execution time\": 0.0007321834564208984}"
+            "{\"execution time\": 0.0006361007690429688}"
         ],
         [
-            "{\"output\": \"396\", \"inputs\": \"[[1, 7, 4, 10, 11, 11, 9, 6, 2, 4, 9, 0, 4, 0, 7, 5, 2, 10, 8, 2, 4, 11, 10, 4, 7, 8, 12, 12, 3, 2, 7, 4, 9, 11, 1, 9, 12, 4, 8, 0], -5, 500]\", \"expected\": \"495\", \"error_code\": -2, \"error_message\": \"Wrong Answer\"}"
+            "{\"output\": \"None\", \"inputs\": \"[[1, 2, 3], 2, 10]\", \"expected\": \"6\", \"error_code\": -2, \"error_message\": \"Wrong Answer\"}"
         ],
         [
-            "{\"execution time\": 0.20847773551940918}"
+            "{\"execution time\": 0.23367977142333984}"
         ],
         [
-            "{\"execution time\": 0.23354315757751465}"
+            "{\"execution time\": 0.235137939453125}"
         ],
         [
-            "{\"execution time\": 0.23399662971496582}"
+            "{\"execution time\": 0.21651649475097656}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
-            "{\"execution time\": 3.3020541667938232}"
+            "{\"execution time\": 1.9769444465637207}"
         ],
         [
-            "{\"output\": \"\", \"inputs\": \"1\\n3 1\\n6 3 8\\n3 5 0\\n2 7 3\", \"expected\": \"12\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 12\"}"
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
             "{\"output\": \"\", \"inputs\": \"4\\n1 2 5 3\", \"expected\": \"5\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 5\"}"
@@ -286,7 +278,7 @@
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ],
         [
-            "{\"output\": \"\", \"inputs\": \"5 4 2\\n4 2\\n1 3\\n3 5\\n2 4\\n1 3\\n2 4\", \"expected\": \"Yes\\nNo\", \"error_code\": -2, \"error_message\": \"Wrong answer: mismatched output length\"}"
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
         ]
     ]
 ]
