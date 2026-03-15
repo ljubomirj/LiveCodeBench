@@ -861,6 +861,13 @@ LanguageModelList: list[LanguageModel] = [
         datetime(2024, 4, 1),
         "https://huggingface.co/agentica-org/DeepCoder-14B-Preview",
     ),
+    LanguageModel(
+        "pony-alpha-2",
+        "z.ai/pony-alpha-2",
+        LMStyle.OpenAIChat,
+        datetime(2026, 3, 1),
+        "https://z.ai/",
+    ),
     # Local llama.cpp aliases for Qwen3.5 GGUF benchmarking via OpenAI-compatible API.
     LanguageModel(
         "Qwen3.5-35B-A3B-IQ4",

@@ -58,15 +58,7 @@
         ],
         "1": [
             [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                false
+                -4
             ]
         ],
         "2": [
@@ -227,13 +219,12 @@
         ],
         "7": [
             [
-                -4
+                -2
             ]
         ],
         "8": [
             [
-                true,
-                -2
+                -4
             ]
         ],
         "9": [
@@ -254,31 +245,31 @@
     },
     [
         [
-            "{\"execution time\": 0.000728607177734375}"
+            "{\"execution time\": 0.0006082057952880859}"
         ],
         [
-            "{\"output\": \"480\", \"inputs\": \"[[1, 7, 4, 10, 11, 11, 9, 6, 2, 4, 9, 0, 4, 0, 7, 5, 2, 10, 8, 2, 4, 11, 10, 4, 7, 8, 12, 12, 3, 2, 7, 4, 9, 11, 1, 9, 12, 4, 8, 0], -5, 500]\", \"expected\": \"495\", \"error_code\": -2, \"error_message\": \"Wrong Answer\"}"
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: unterminated string literal (detected at line 42) (<string>, line 42)\"}"
         ],
         [
-            "{\"execution time\": 0.2103865146636963}"
+            "{\"execution time\": 0.2116084098815918}"
         ],
         [
-            "{\"execution time\": 0.21367406845092773}"
+            "{\"execution time\": 0.21726036071777344}"
         ],
         [
-            "{\"execution time\": 0.21237564086914062}"
+            "{\"execution time\": 0.2247452735900879}"
+        ],
+        [
+            "{\"error_code\": -4, \"error_message\": \"Error during testing: invalid syntax (<string>, line 1)\"}"
+        ],
+        [
+            "{\"execution time\": 2.526294231414795}"
+        ],
+        [
+            "{\"output\": \"\", \"inputs\": \"1\\n3 1\\n6 3 8\\n3 5 0\\n2 7 3\", \"expected\": \"12\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0:  != 12\"}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"execution time\": 2.123708963394165}"
-        ],
-        [
-            "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
-        ],
-        [
-            "{\"output\": \"10\\n\", \"inputs\": \"7\\n3 1 4 1 5 9 2\", \"expected\": \"14\", \"error_code\": -2, \"error_message\": \"Wrong answer at output_line_idx=0: 10 != 14\"}"
         ],
         [
             "{\"error_code\": -4, \"error_message\": \"Error during testing: expected an indented block after function definition on line 38 (<string>, line 38)\"}"
