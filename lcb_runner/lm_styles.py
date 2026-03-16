@@ -868,6 +868,13 @@ LanguageModelList: list[LanguageModel] = [
         datetime(2026, 3, 1),
         "https://z.ai/",
     ),
+    LanguageModel(
+        "MiroThinker-1.7-mini-Q4",
+        "MiroThinker-1.7-mini-Q4",
+        LMStyle.OpenAIChat,
+        datetime(2026, 3, 1),
+        "https://huggingface.co/miromind-ai/MiroThinker-1.7-mini",
+    ),
     # Local llama.cpp aliases for Qwen3.5 GGUF benchmarking via OpenAI-compatible API.
     LanguageModel(
         "Qwen3.5-35B-A3B-IQ4",
